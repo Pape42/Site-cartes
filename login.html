@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangAnim Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="no-scroll">
+
+
+
+<header>
+    <nav class="entete">
+        <a href="index.html"><h1>MangAnim <br> Collection</h1></a>
+        <a href="index.html">Menu</a>
+        <a href="#">Comment <br> ça marche ?</a>
+        <a href="#">Prêt <br> évènementiel</a>
+        <a href="#">Pourquoi nous <br> choisir ?</a>
+        <a href="#">Témoignage</a>
+        <a href="register.html"><u>Register</u></a>
+    <button class="conexion">
+        <a href="#">Log In</a>
+    </button>
+    </nav>
+    <img class="fond" src="fond.jpg" alt="fond">
+</header>
+
+
+    <form action="" method="POST" enctype="multipart/form-data" id="registrationForm">
+
+        <div class="container">
+            <div class="form">
+                <h1>Se connecter</h1>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Se rappeler de moi</label>   
+                </div>
+             
+                <div class="inputBox">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Votre email">
+                    <small class="error-message"></small>
+                </div>
+        
+                <div class="inputBox">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Votre mot de passe">
+                    <small class="error-message"></small>
+                </div>
+
+                <button class="conexion2"  type="submit">Conexion</button>
+
+                <div class="register">
+                    <p>Vous n'avez pas de compte ?<a href="register.html">S'inscrire</a></p>
+                </div>
+            </div>
+        </div>
+    </form>
+<script src="main.js"></script>
+</body>
